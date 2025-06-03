@@ -1,9 +1,33 @@
-# React TypeScript Starter Pack
+# Todo App
 
-To use this template click `Use this template`
+A Todo app, connected with the server with REST API, allowing the user to do CRUD operations.
 
-### Available Scripts
+### Live demo
+Browse the site and jot down some tasks with this [Live demo](https://maponomarenko.github.io/Todo_app/)
 
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
+### Technologies Used
+React - markup and logic
+TypeScript - type safety
+SCSS - Styling
+Vite - Build tool
+ESLint - for code quality
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+### Getting started
+Clone the repository:
+git clone https://github.com/maponomarenko/Todo_app.git
+cd Todo_app
+
+Install dependencies:
+npm install
+or
+yarn install
+
+Run the project locally:
+npm start
+or
+yarn start
+
+### Features
+Autofocus with useRef for better UX
+Clear error handling for clarity of use
+Modal loader on Todo creation or update for better UI
